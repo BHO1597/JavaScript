@@ -16,24 +16,24 @@ console.log( typeof nombre);
 
 let esMarvel = true; // dato booleano
 
-let esMarvel2 = false;
+let esMarvel2 = false; // False la mayusc no debe estar
 console.log( typeof esMarvel);
 
-let edad = 33;
+let edad = 33; // tipo number
 console.log( typeof edad);
 
-edad = 33.001;
+edad = 33.001; // sigue siendo un nro no existe flotantes en js
 console.log(typeof edad);
 
-let superPoder;
-console.log(typeof superPoder); // ??
+let superPoder; // camelCase para desarrolladores JS no snakeCase standar en python
+console.log(typeof superPoder); // ?? resultado sale indefinido
 
 let soyNull = null;
 console.log(typeof soyNull); // en JS todos son objetos excepto los datos primitivos
 
-let symbol1 = Symbol('a');
+let symbol1 = Symbol('a'); // Symbol identifica propiedades de manera unica
 let symbol2 = Symbol('a');
 
-console.log(typeof symbol1);
+console.log(typeof symbol1); // resultado sale tipo symbol
 
 console.log( symbol1 === symbol2); // da false
