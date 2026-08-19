@@ -15,6 +15,8 @@ console.log({ videoJuegos });
 
 console.log( videoJuegos[0] );
 
+// los valores de las posiciones se llaman indices
+
 let arregloCosas = [
     true,
     123,
@@ -33,4 +35,6 @@ let arregloCosas = [
 
 // console.log(arregloCosas[2]);
 
-console.log( arregloCosas[7][4][1] );
+// console.log(arregloCosas[7][3]); resultado -> Dr. Light
+
+console.log( arregloCosas[7][4][1] ); // resultado -> Woodman
